@@ -1,0 +1,4 @@
+- account: asd
+  name: cluster5
+  provider: google
+  src: cluster5.yaml
