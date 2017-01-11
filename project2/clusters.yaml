@@ -1,8 +1,4 @@
 - account: tututu
-  name: cluster4
-  provider: aws
-  src: cluster4.yaml
-- account: tututu
   name: cluster5
   provider: aws
   src: cluster5.yaml
