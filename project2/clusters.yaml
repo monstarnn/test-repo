@@ -2,7 +2,3 @@
   name: cluster
   provider: google
   src: cluster.yaml
-- account: tututu
-  name: cluster2
-  provider: aws
-  src: cluster2.yaml
