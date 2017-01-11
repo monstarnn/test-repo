@@ -1,4 +1,1 @@
-- account: tututu
-  name: cluster3
-  provider: aws
-  src: cluster3.yaml
+[]
