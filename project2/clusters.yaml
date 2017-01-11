@@ -1,4 +1,1 @@
-- account: lalala
-  name: cluster
-  provider: google
-  src: cluster.yaml
+[]
