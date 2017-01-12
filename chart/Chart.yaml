@@ -2,12 +2,17 @@ name: My test chart
 version: 0.1.2
 description: Just my test chart description
 keywords:
-  - test chart key word
+  - test
+  - chart 
+  - key
+  - words
 home: http://localhost/
 sources:
   - http://localhost/2/
 maintainers:
   - name: Vadim
     email: monstarnn@gmail.com
+  - name: Vadim2
+    email: monstarnn@mail.ru
 engine: gotpl
 icon: http://localhost/
