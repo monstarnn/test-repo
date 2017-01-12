@@ -7,3 +7,7 @@
   provider: google
   service_account: seventh-seeker-155107
   src: cluster2.yaml
+- account: seventh-seeker-155107
+  name: cluster3
+  provider: google
+  src: cluster3.yaml
