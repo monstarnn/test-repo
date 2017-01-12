@@ -2,3 +2,8 @@
   name: cluster
   provider: google
   src: cluster.yaml
+- account: ""
+  name: cluster2
+  provider: google
+  service_account: seventh-seeker-155107
+  src: cluster2.yaml
