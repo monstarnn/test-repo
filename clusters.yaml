@@ -2,3 +2,7 @@
   Name: test-cluster
   Provider: google
   Src: test-cluster.yaml
+- Account: seventh-seeker-155107
+  Name: test-cluster-2
+  Provider: google
+  Src: test-cluster-2.yaml
