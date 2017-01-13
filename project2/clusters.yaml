@@ -14,3 +14,7 @@
   Name: cluster4
   Provider: google
   Src: cluster4.yaml
+- Account: seventh-seeker-155107
+  Name: cluster5
+  Provider: google
+  Src: cluster5.yaml
