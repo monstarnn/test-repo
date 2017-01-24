@@ -1,4 +1,4 @@
-sname: My test chart new name
+name: My test chart new name
 version: 0.0.2
 description: Just my test chart description
 keywords:
