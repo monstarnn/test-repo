@@ -1,5 +1,5 @@
-name: My test chart new name
-version: 0.0.2
+name: My test chart 0.3
+version: 0.0.3
 description: Just my test chart description
 keywords:
   - test
