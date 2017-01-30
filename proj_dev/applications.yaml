@@ -2,7 +2,7 @@
   charts:
     - name: elastic
       src: dev.kuberlab.io/kuberlab/elastic
-      version: ^1.2.5
+      version: ^1.2.4
       clusters:
         - master
         - slave
