@@ -12,3 +12,8 @@
   Name: asdasd
   Provider: google
   Src: asdasd.yaml
+  Status: Undefined
+- Account: seventh-seeker-155107
+  Name: asdasdasd
+  Provider: google
+  Src: asdasdasd.yaml
