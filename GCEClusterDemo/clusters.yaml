@@ -2,7 +2,13 @@
   Name: master-test
   Provider: google
   Src: master.yaml
+  Status: Undefined
 - Account: seventh-seeker-155107
   Name: master-test-2
   Provider: google
   Src: master-test-2.yaml
+  Status: Undefined
+- Account: seventh-seeker-155107
+  Name: asdasd
+  Provider: google
+  Src: asdasd.yaml
