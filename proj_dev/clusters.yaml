@@ -28,3 +28,8 @@
   Name: any-cluster-6
   Provider: google
   Src: olala.yaml
+- Account: testcluster-158807
+  MasterIP: ""
+  Name: any-cluster-8
+  Provider: google
+  Src: any-cluster-8.yaml
