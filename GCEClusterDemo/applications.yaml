@@ -51,6 +51,17 @@
     order: null
     src: https://github.com/iljapoletaev/ku_test/elastic
     version: 0.1.2
+  - clusters:
+    - master-test-2
+    - asdasd
+    configuration:
+      values:
+        arbitrary:
+          dict: ""
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
   name: app1
 - charts:
   - clusters:
@@ -76,6 +87,17 @@
     version: 0.1.2
   - clusters:
     - master-test-2
+    configuration:
+      values:
+        arbitrary:
+          dict: ""
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
+  - clusters:
+    - master-test-2
+    - asdasd
     configuration:
       values:
         arbitrary:
