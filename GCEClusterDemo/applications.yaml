@@ -1,18 +1,45 @@
-- name: kuberlab
-  charts:
-    - name: elastic
-      src: dev.kuberlab.io/kuberlab/elastic
-      version: ^1.2.5
-      clusters:
-        - master
-        - slave
-      configuration:
-        file: reference to values
-        values:
-          p1: test
-    - name: kuberlab
-      src: dev.kuberlab.io/kuberlab/kuberlab
-      clusters:
-        - master
-      configuration:
-        file: reference to values
+- charts:
+  - clusters:
+    - master
+    - slave
+    configuration:
+      file: reference to values
+      values:
+        p1: test
+    name: elastic
+    order: null
+    src: dev.kuberlab.io/kuberlab/elastic
+    version: ^1.2.5
+  - clusters:
+    - master
+    configuration:
+      file: reference to values
+    name: kuberlab
+    order: null
+    src: dev.kuberlab.io/kuberlab/kuberlab
+    version: ""
+  name: kuberlab
+- charts:
+  - clusters:
+    - master-test-2
+    configuration:
+      values:
+        arbitrary:
+          dict: ""
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
+  name: app1
+- charts:
+  - clusters:
+    - master-test-2
+    configuration:
+      values:
+        arbitrary:
+          dict: ""
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
+  name: app2
