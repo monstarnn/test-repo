@@ -282,8 +282,107 @@
     order: null
     src: https://github.com/iljapoletaev/ku_test/elastic
     version: 0.1.2
+  - clusters:
+    - asdasdasd
+    configuration:
+      values:
+        ClientCpuLimits: 100m
+        ClientCpuRequests: 25m
+        ClientHeapSize: 128m
+        ClientMemoryLimits: 512Mi
+        ClientMemoryRequests: 256Mi
+        ClientReplicas: 2
+        Component: elasticsearch
+        DataCpuLimits: "1"
+        DataCpuRequests: 250m
+        DataHeapSize: 1536m
+        DataMemoryLimits: 4Gi
+        DataMemoryRequests: 2Gi
+        DataReplicas: 3
+        DataStorage: 30Gi
+        DataStorageClass: anything
+        DataStorageClassVersion: alpha
+        Image: jetstack/elasticsearch-pet:2.3.5
+        ImagePullPolicy: Always
+        MasterCpuLimits: 100m
+        MasterCpuRequests: 25m
+        MasterHeapSize: 128m
+        MasterMemoryLimits: 512Mi
+        MasterMemoryRequests: 256Mi
+        MasterReplicas: 2
+        Name: es
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
+  - clusters:
+    - asdasdasd
+    configuration:
+      values:
+        ClientCpuLimits: 100m
+        ClientCpuRequests: 25m
+        ClientHeapSize: 128m
+        ClientMemoryLimits: 512Mi
+        ClientMemoryRequests: 256Mi
+        ClientReplicas: 2
+        Component: elasticsearch
+        DataCpuLimits: "1"
+        DataCpuRequests: 250m
+        DataHeapSize: 1536m
+        DataMemoryLimits: 4Gi
+        DataMemoryRequests: 2Gi
+        DataReplicas: 3
+        DataStorage: 30Gi
+        DataStorageClass: anything
+        DataStorageClassVersion: alpha
+        Image: jetstack/elasticsearch-pet:2.3.5
+        ImagePullPolicy: Always
+        MasterCpuLimits: 100m
+        MasterCpuRequests: 25m
+        MasterHeapSize: 128m
+        MasterMemoryLimits: 512Mi
+        MasterMemoryRequests: 256Mi
+        MasterReplicas: 2
+        Name: es
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
   name: a
 - charts:
+  - clusters:
+    - asdasdasd
+    configuration:
+      values:
+        ClientCpuLimits: 100m
+        ClientCpuRequests: 25m
+        ClientHeapSize: 128m
+        ClientMemoryLimits: 512Mi
+        ClientMemoryRequests: 256Mi
+        ClientReplicas: 2
+        Component: elasticsearch
+        DataCpuLimits: "1"
+        DataCpuRequests: 250m
+        DataHeapSize: 1536m
+        DataMemoryLimits: 4Gi
+        DataMemoryRequests: 2Gi
+        DataReplicas: 3
+        DataStorage: 30Gi
+        DataStorageClass: anything
+        DataStorageClassVersion: alpha
+        Image: jetstack/elasticsearch-pet:2.3.5
+        ImagePullPolicy: Always
+        MasterCpuLimits: 100m
+        MasterCpuRequests: 25m
+        MasterHeapSize: 128m
+        MasterMemoryLimits: 512Mi
+        MasterMemoryRequests: 256Mi
+        MasterReplicas: 2
+        Name: es
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
   - clusters:
     - asdasdasd
     configuration:
@@ -418,6 +517,39 @@
     order: null
     src: https://github.com/iljapoletaev/ku_test/elastic
     version: 0.1.2
+  - clusters:
+    - asdasdasd
+    configuration:
+      values:
+        ClientCpuLimits: 100m
+        ClientCpuRequests: 25m
+        ClientHeapSize: 128m
+        ClientMemoryLimits: 512Mi
+        ClientMemoryRequests: 256Mi
+        ClientReplicas: 2
+        Component: elasticsearch
+        DataCpuLimits: "1"
+        DataCpuRequests: 250m
+        DataHeapSize: 1536m
+        DataMemoryLimits: 4Gi
+        DataMemoryRequests: 2Gi
+        DataReplicas: 3
+        DataStorage: 30Gi
+        DataStorageClass: anything
+        DataStorageClassVersion: alpha
+        Image: jetstack/elasticsearch-pet:2.3.5
+        ImagePullPolicy: Always
+        MasterCpuLimits: 100m
+        MasterCpuRequests: 25m
+        MasterHeapSize: 128m
+        MasterMemoryLimits: 512Mi
+        MasterMemoryRequests: 256Mi
+        MasterReplicas: 2
+        Name: es
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
   name: ','
 - charts:
   - clusters:
@@ -486,8 +618,74 @@
     order: null
     src: https://github.com/iljapoletaev/ku_test/elastic
     version: 0.1.2
+  - clusters:
+    - asdasdasd
+    configuration:
+      values:
+        ClientCpuLimits: 100m
+        ClientCpuRequests: 25m
+        ClientHeapSize: 128m
+        ClientMemoryLimits: 512Mi
+        ClientMemoryRequests: 256Mi
+        ClientReplicas: 2
+        Component: elasticsearch
+        DataCpuLimits: "1"
+        DataCpuRequests: 250m
+        DataHeapSize: 1536m
+        DataMemoryLimits: 4Gi
+        DataMemoryRequests: 2Gi
+        DataReplicas: 3
+        DataStorage: 30Gi
+        DataStorageClass: anything
+        DataStorageClassVersion: alpha
+        Image: jetstack/elasticsearch-pet:2.3.5
+        ImagePullPolicy: Always
+        MasterCpuLimits: 100m
+        MasterCpuRequests: 25m
+        MasterHeapSize: 128m
+        MasterMemoryLimits: 512Mi
+        MasterMemoryRequests: 256Mi
+        MasterReplicas: 2
+        Name: es
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
   name: ""
 - charts:
+  - clusters:
+    - asdasdasd
+    configuration:
+      values:
+        ClientCpuLimits: 100m
+        ClientCpuRequests: 25m
+        ClientHeapSize: 128m
+        ClientMemoryLimits: 512Mi
+        ClientMemoryRequests: 256Mi
+        ClientReplicas: 2
+        Component: elasticsearch
+        DataCpuLimits: "1"
+        DataCpuRequests: 250m
+        DataHeapSize: 1536m
+        DataMemoryLimits: 4Gi
+        DataMemoryRequests: 2Gi
+        DataReplicas: 3
+        DataStorage: 30Gi
+        DataStorageClass: anything
+        DataStorageClassVersion: alpha
+        Image: jetstack/elasticsearch-pet:2.3.5
+        ImagePullPolicy: Always
+        MasterCpuLimits: 100m
+        MasterCpuRequests: 25m
+        MasterHeapSize: 128m
+        MasterMemoryLimits: 512Mi
+        MasterMemoryRequests: 256Mi
+        MasterReplicas: 2
+        Name: es
+    name: elasticsearch
+    order: null
+    src: https://github.com/iljapoletaev/ku_test/elastic
+    version: 0.1.2
   - clusters:
     - asdasdasd
     configuration:
