@@ -1,5 +1,1 @@
-- Account: testcluster-158807
-  MasterIP: ""
-  Name: any-cluster
-  Provider: google
-  Src: any-cluster.yaml
+[]
