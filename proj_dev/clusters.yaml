@@ -3,3 +3,8 @@
   Name: any-cluster
   Provider: google
   Src: any-cluster.yaml
+- Account: testcluster-158807
+  MasterIP: ""
+  Name: any-cluster-2
+  Provider: google
+  Src: any-cluster-2.yaml
