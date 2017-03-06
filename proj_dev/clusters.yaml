@@ -18,8 +18,3 @@
   Name: any-cluster-4
   Provider: google
   Src: any-cluster-4.yaml
-- Account: testcluster-158807
-  MasterIP: ""
-  Name: any-cluster-5
-  Provider: google
-  Src: any-cluster-5.yaml
