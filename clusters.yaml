@@ -1,8 +1,15 @@
 - Account: seventh-seeker-155107
+  MasterIP: ""
   Name: test-cluster
   Provider: google
   Src: test-cluster.yaml
 - Account: seventh-seeker-155107
+  MasterIP: ""
   Name: test-cluster-2
   Provider: google
   Src: test-cluster-2.yaml
+- Account: testcluster-158807
+  MasterIP: ""
+  Name: test-cluster-3
+  Provider: google
+  Src: test-cluster-3.yaml
