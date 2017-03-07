@@ -10,11 +10,6 @@
   Src: test-cluster-2.yaml
 - Account: testcluster-158807
   MasterIP: ""
-  Name: test-cluster-3
-  Provider: google
-  Src: test-cluster-3.yaml
-- Account: testcluster-158807
-  MasterIP: ""
   Name: master-test
   Provider: google
   Src: master-test.yaml
