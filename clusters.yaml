@@ -3,8 +3,3 @@
   Name: master-test
   Provider: google
   Src: master-test.yaml
-- Account: lucid-timing-151005_kubernetes|https://104.155.129.203
-  MasterIP: ""
-  Name: kubernetes
-  Provider: kubernetes
-  Src: kubernetes.yaml
