@@ -1,9 +1,5 @@
-- Account: asd
-  Name: cluster5
-  Provider: google
-  Src: cluster5.yaml
-  Status: Undefined
 - Account: seventh-seeker-155107
+  MasterIP: ""
   Name: cluster6
   Provider: google
   Src: cluster6.yaml
