@@ -1,1 +1,5 @@
-[]
+- Account: kl-demo-2
+  MasterIP: ""
+  Name: vadim-cluster
+  Provider: google
+  Src: vadim-cluster.yaml
