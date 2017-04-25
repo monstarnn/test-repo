@@ -1,10 +1,4 @@
-- Account: seventh-seeker-155107
-  MasterIP: ""
-  Name: asdasd
+- Account: kl-demo1
+  Name: storage-test
   Provider: google
-  Src: asdasd.yaml
-- Account: seventh-seeker-155107
-  MasterIP: ""
-  Name: asdasdasd
-  Provider: google
-  Src: asdasdasd.yaml
+  Src: master.yaml
