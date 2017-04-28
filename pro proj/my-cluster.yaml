@@ -1,0 +1,6 @@
+Account: kuberlab-demo
+AutoDeploy: true
+Name: my-cluster
+Provider: google
+Src: my-cluster.yaml
+Status: Undefined
