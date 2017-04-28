@@ -3,3 +3,8 @@
   Name: my-cluster
   Provider: google
   Src: my-cluster.yaml
+- Account: admin@master-master-test|https://35.185.131.39:443
+  AutoDeploy: false
+  Name: my-cluster-2
+  Provider: kubernetes
+  Src: my-cluster-2.yaml
