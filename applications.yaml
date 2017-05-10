@@ -5,4 +5,10 @@
     name: mlboard
     src: https://github.com/kuberlab-catalog/ml-board/
     version: 1.0.0
+  - clusters:
+    - master-test
+    configuration: {}
+    name: mlboard
+    src: https://github.com/kuberlab-catalog/ml-board/
+    version: 1.0.0
   name: mlboard
