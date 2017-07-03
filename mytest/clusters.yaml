@@ -1,0 +1,5 @@
+- Account: gpuhome
+  AutoDeploy: false
+  Name: mytestclu
+  Provider: kubernetes
+  Src: mytestclu.yaml
