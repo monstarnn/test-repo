@@ -1,4 +1,4 @@
-- Account: gpuhome
+- Account: gpuhome2
   AutoDeploy: false
   Name: mytestclu
   Provider: kubernetes
