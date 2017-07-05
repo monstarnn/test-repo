@@ -2,7 +2,7 @@ instances:
 - count: -1
   gpu:
   - acceleratorCount: 1
-    acceleratorType: nvidia-tesla-k80
+    acceleratorType: nvidia-tesla-k80-222
   instance_type: n1-standard-2
   labels:
     type: gpu
