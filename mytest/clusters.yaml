@@ -3,3 +3,8 @@
   Name: mytestclu
   Provider: kubernetes
   Src: mytestclu.yaml
+- Account: gpuhome2
+  AutoDeploy: true
+  Name: mytestclu2
+  Provider: kubernetes
+  Src: mytestclu2.yaml
