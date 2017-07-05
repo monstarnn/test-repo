@@ -4,7 +4,7 @@
   Provider: kubernetes
   Src: mytestclu.yaml
 - Account: gpuhome2
-  AutoDeploy: true
+  AutoDeploy: false
   Name: mytestclu2
   Provider: kubernetes
   Src: mytestclu2.yaml
