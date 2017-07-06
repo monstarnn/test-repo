@@ -1,5 +1,7 @@
+# comment line
 name: My test chart ou-dot-three
-version: 0.0.4
+
+version: 0.0.5
 description: Just my test chart description
 keywords:
   - test
