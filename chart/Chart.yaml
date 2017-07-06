@@ -1,8 +1,8 @@
 # comment line
-name: My test chart ou-dot-three
+name: My test chart ou-dot-six
 
-version: 0.0.5
-description: Just my test chart description
+version: 0.0.6
+description: Just my test chart description for 0.0.6
 keywords:
   - test
   - chart 
