@@ -33,8 +33,3 @@
   Name: another-5
   Provider: kubernetes
   Src: another-5.yaml
-- Account: kl-demo3
-  AutoDeploy: false
-  Name: another-6
-  Provider: google
-  Src: another-6.yaml
