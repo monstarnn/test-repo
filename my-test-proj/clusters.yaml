@@ -18,3 +18,8 @@
   Name: another-2
   Provider: kubernetes
   Src: another-2.yaml
+- Account: gpuhome
+  AutoDeploy: false
+  Name: another-3
+  Provider: kubernetes
+  Src: another-3.yaml
