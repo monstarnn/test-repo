@@ -1,0 +1,68 @@
+# Google region where cluster is deployed.
+region: us-east1
+# Google zone where cluster instances are deployed.
+zone: us-east1-d
+master_count: 1
+# Kubernetes version to use during cluster deployment. (Supports semantic version)
+kubernetes_version: v1.6.6
+# Master disk size in gigabytes.
+master_disk_size: 32
+# Master disk type, all possible options see at https://cloud.google.com/compute/docs/reference/beta/diskTypes
+# Applicable disk types include pd-ssd, local-ssd, and pd-standard.
+master_disk_type: pd-standard
+# Master instance type. Includes allocated resources such as amount of CPU and RAM.
+# Read more about machine types at https://cloud.google.com/compute/docs/machine-types
+master_type: n1-standard-2
+# Cluster name
+name: another-6
+# (Optional) Storage section.
+nfs_storage:
+  # NFS instance disk size in gigabytes.
+  disk_size: 50
+  # NFS instance disk type
+  disk_type: pd-ssd
+  # NFS instances count
+  instance_count: 1
+  # NFS instance type
+  instance_type: n1-standard-1
+  # Mandatory flag, means NFS. It will be needed in the future for possible extensions (more than only NFS)
+  storage_type: nfs-server
+instances:
+# Node groups configuration section (aka minions aka slaves)
+# Group list
+# Instances count in the group
+- count: 2
+  # Instance type
+  instance_type: n1-standard-2
+  # Labels which will be applied to kubernetes node (maybe useful for nodeSelector).
+  labels:
+    type: test
+  # Instance group name.
+  name: test
+  # Disk configuration
+  volumes:
+  - autoDelete: true
+    boot: true
+    initializeParams:
+      # Disk size in GBs.
+      diskSizeGb: "32"
+# -1 means that group will not be spawned at cluster deployment stage.
+# For GPU groups, it is possible to start them on demand later, during building model.
+# In this case instances will be started during model building and stoped after it.
+- count: -1
+  # GPU configuration.
+  gpu:
+    # GPUs count.
+  - acceleratorCount: 1
+    # GPU model. Currently supported models see at https://cloud.google.com/compute/docs/gpus/
+    # May be ommited. nvidia-tesla-k80 by default.
+    acceleratorType: nvidia-tesla-k80
+  instance_type: n1-standard-2
+  labels:
+    type: gpu
+  name: gpunodes
+  volumes:
+  - autoDelete: true
+    boot: true
+    initializeParams:
+      diskSizeGb: "32"
