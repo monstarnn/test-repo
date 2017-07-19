@@ -38,8 +38,3 @@
   Name: another-6
   Provider: google
   Src: another-6.yaml
-- Account: gpuhome
-  AutoDeploy: false
-  Name: another-7
-  Provider: kubernetes
-  Src: another-7.yaml
