@@ -1,0 +1,5 @@
+- Account: gpuhome
+  AutoDeploy: false
+  Name: cluster
+  Provider: kubernetes
+  Src: another.yaml
