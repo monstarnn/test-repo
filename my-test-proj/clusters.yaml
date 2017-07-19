@@ -3,3 +3,8 @@
   Name: cluster
   Provider: kubernetes
   Src: another.yaml
+- Account: gpuhome
+  AutoDeploy: false
+  Name: another
+  Provider: kubernetes
+  Src: another-1.yaml
