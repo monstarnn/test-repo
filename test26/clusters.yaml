@@ -3,3 +3,8 @@
   Name: test-lucid-google
   Provider: google
   Src: test-lucid-google.yaml
+- Account: lucid-timing-151005
+  AutoDeploy: false
+  Name: go-kuberlab
+  Provider: google
+  Src: go-kuberlab.yaml
